@@ -1,0 +1,174 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100%;
+    width: 100%;
+}
+.conteiner{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+    height: 800px;
+    background: url(./img/462637.700xp.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header_inner{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+.info1{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.info2{
+    height: 150px;
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.team1{
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    height: 70px;
+    width: 250px;
+    background-color: rgb(201, 201, 201);
+    font-size: 30PX;
+}
+.team1 ul li:hover ul{
+    display: block;
+    background-color: rgb(201, 201, 201);
+}
+.team1 ul li:hover{
+    background-color: red;
+}
+.team1 ul li ul li{
+    font-size: 20PX;
+}
+.team1 ul li ul li:hover{
+    background-color: rgb(255, 126, 126);
+    font-size: 20PX;
+}
+.team1 ul ul{
+    display: none;
+}
+.team2{
+    margin-top: 20px;
+    text-align: center;
+    height: 70px;
+    width: 250px;
+    background-color: rgb(201, 201, 201);
+    font-size: 30PX;
+}
+.info2 ul li{
+    line-height: 70px;
+    display: block;
+}
+.team2 ul li:hover ul{
+    display: block;
+    background-color: rgb(201, 201, 201);
+}
+.team2 ul li ul li ul li{
+    display:none;
+}
+.team2 ul li ul li:hover ul{
+    display: block;
+}
+.team2 ul li:hover{
+    background-color: red;
+}
+.team2 ul li:hover{
+    background-color: rgb(255, 0, 0);
+}
+.team2 ul li ul li:hover{
+    background-color: rgb(255, 126, 126); 
+}
+.team2 ul ul{
+    display: none;
+}
+.team2 ul li ul li:hover ul li{
+    display: block;
+}
+.team2 ul li ul li{
+    font-size: 20PX;
+}
+.team2 ul li ul li:hover{
+    background-color: rgb(255, 126, 126);
+    font-size: 20PX;
+}
+.team2 ul li ul li ul{
+    position: absolute;
+    left: 1385px;
+    top: 115px;
+}
+.team2 ul li ul li ul li{
+    background-color: royalblue;
+}
+.team2 ul li ul li ul li a{
+    color: white;
+}
+.team2 ul li ul li ul li .first_a{
+    line-height: 130px;
+    width: 200px;
+    background: url(./img/T8nJ.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
+.team2 ul li ul li ul li .second_a{
+    line-height: 130px;
+    width: 200px;
+    background: url(./img/FvJa.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
+.team2 ul li ul li ul li .thirst_a{
+    line-height: 130px;
+    width: 200px;
+    background: url(./img/TIOR.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
+.team2 ul li ul li ul li .a_4{
+    line-height: 130px;
+    width: 200px;
+    background: url(./img/3dig.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
+.team2 ul li ul li ul li .a_5{
+    line-height: 100px;
+    width: 200px;
+    background: url(./img/Thml.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
+.team2 ul li ul li ul li .a_6{
+    line-height: 130px;
+    width: 200px;
+    background: url(./img/56EZ.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
